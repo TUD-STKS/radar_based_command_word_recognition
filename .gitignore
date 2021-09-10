@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.suo
+/datasets/__pycache__/__init__.cpython-38.pyc
+/datasets/__pycache__/TrainingCorpus.cpython-38.pyc
+/datasets/__pycache__/rs_dataset.cpython-38.pyc
+/datasets/__pycache__/rs_corpus.cpython-38.pyc
+/datasets/__pycache__/RsDataSet.cpython-38.pyc
+/datasets/__pycache__/import_rs_data.cpython-38.pyc
+/datasets/__pycache__
+*.pkl
