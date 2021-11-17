@@ -17,6 +17,10 @@ stored anywhere else.
 Afterwards, please manually add the path to the dict that is returned by the function
 rs_corpus.get_corpus_full_file_paths()
 
+https://www.vocaltractlab.de/index.php?page=birkholz-supplements also provided
+a pre-built binary corpus, both for python (identical to what would be returned
+from manually building it) and for MATLAB.
+
 # ------------------------------------------------------------------------------
 
 To repeat the training of the BiLSTM as explained in the paper, please run
