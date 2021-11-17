@@ -7,7 +7,17 @@ and loaded fully during training. Please run the script
 
 build_training_corpus.py
 
-to build the corpus from the individual files.
+to build the corpus from the individual files, after adjusting the file path to 
+where the corpus is stored. The corpus itself can be downloaded from
+https://www.vocaltractlab.de/index.php?page=birkholz-supplements
+
+the binary corpus file "processed_training_corpus.pkl" will be created in the
+same folder that the script was run in. The binary file can reside here or
+stored anywhere else.
+Afterwards, please manually add the path to the dict that is returned by the function
+rs_corpus.get_corpus_full_file_paths()
+
+# ------------------------------------------------------------------------------
 
 To repeat the training of the BiLSTM as explained in the paper, please run
 
@@ -40,5 +50,13 @@ The maximal value is 127 (corresponding to 128 frequency points from 1 to 6 GHz)
 freq_start_index = 0
 freq_stop_index = 67
 
+The maximal number of hidden units used for the BiLSTM layer.
 max_num_hidden_units = 50
+
+The second evaluation, where the hyperparameters are optimized on a small subset
+of the remaining session, can be repeated using the script
+
+evaluate_inter_session_no_cv.py
+
+The user input is identical.
 
