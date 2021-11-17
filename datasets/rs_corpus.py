@@ -21,9 +21,9 @@ def get_corpus_full_file_paths():
         paths (dict): Dictionary containing the different full file paths.
     '''
 
-    local_pc_path = "C:\\Users\\chris\\Documents\\Institut\\corpora\\command_word_recognition\\"
-    hpc_path_warm = '/warm_archive/ws/chrwagne-radarspeech/'
-    hpc_path_home = '/home/h6/chrwagne/corpus/'
+    local_pc_path = "LOCAL_PATH_TO_BINARY_PKL_CORPUS" # PLEASE ADJUST
+    hpc_path_warm = 'HPC_WARM_PATH_TO_BINARY_PKL_CORPUS'
+    hpc_path_home = 'HPC_HOME_PATH_TO_BINARY_PKL_CORPUS'
     path_dict = {'local_pc_path' : local_pc_path,
              'hpc_path_warm' : hpc_path_warm,
              'hpc_path_home' : hpc_path_home}
