@@ -2,7 +2,7 @@
 This repository contains supplementary code for the radar-based command word recognition study from the paper 
 "Silent speech command word recognition using stepped frequency continuous wave radar".
 
-# Building the corpus
+## Building the corpus
 
 Since the recorded corpus is reasonably small, the corpus is built as a binary file
 and loaded fully during training. Please run the script
@@ -23,7 +23,7 @@ https://www.vocaltractlab.de/index.php?page=birkholz-supplements also provided
 a pre-built binary corpus, both for python (identical to what would be returned
 from manually building it) and for MATLAB.
 
-# ------------------------------------------------------------------------------
+## Experiments and training
 
 To repeat the training of the BiLSTM as explained in the paper, please run
 
