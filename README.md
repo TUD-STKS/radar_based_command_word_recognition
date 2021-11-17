@@ -55,6 +55,7 @@ The spectra used as input features and the associated transform that is applied
 to that spectrum.
 
 `spectra = ['S32']`
+
 `transforms = ['mag']`
 
 Example: spectra = ['S32','S21'], transforms = ['mag','mag_delta']
