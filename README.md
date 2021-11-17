@@ -36,19 +36,27 @@ are used for training, while the remaining one is used as the test set.
 Inside this script, a number of parameters can be changed by the user:
 
 The number of model evaluations for the hyperparameter search:
+
 `num_model_evaluations = 20` 
+
 The subject index (0 or 1 for either subject)
+
 `subject_index = 0` 
+
 The split index, which specifies how the three sessions of each subject
 are split into training and test set, following the notation of
 {training session 1, training session 2 | training session 3}.
+
 `split_index = 1` # selected split index from [0,1,2]
+
 Example: split_index 0 uses session 1 & 2 for training and session 3 for testing.
 
 The spectra used as input features and the associated transform that is applied
 to that spectrum.
+
 `spectra = ['S32']`
 `transforms = ['mag']`
+
 Example: spectra = ['S32','S21'], transforms = ['mag','mag_delta']
 The allowed spectra and transforms can be returned with the function
 `train_and_evaluate.get_allowed_spectra_and_transform_keys()`
