@@ -2,6 +2,8 @@
 This repository contains supplementary code for the radar-based command word recognition study from the paper 
 "Silent speech command word recognition using stepped frequency continuous wave radar".
 
+# Building the corpus
+
 Since the recorded corpus is reasonably small, the corpus is built as a binary file
 and loaded fully during training. Please run the script
 
