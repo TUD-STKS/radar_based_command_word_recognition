@@ -89,5 +89,5 @@ The user input is identical.
 
 The intra-session experiment can be run with the script
 
-  `evaluate_intra_session.py`
+  `evaluate_intra_session_no_cv.py`
 
