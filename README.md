@@ -59,14 +59,18 @@ to that spectrum.
 
 Example: spectra = ['S32','S21'], transforms = ['mag','mag_delta']
 The allowed spectra and transforms can be returned with the function
+
 `train_and_evaluate.get_allowed_spectra_and_transform_keys()`
 
 The start and stop index of the frequencies used of each spectrum.
 The maximal value is 127 (corresponding to 128 frequency points from 1 to 6 GHz).
+
 `freq_start_index = 0`
+
 `freq_stop_index = 67`
 
 The maximal number of hidden units used for the BiLSTM layer.
+
 `max_num_hidden_units = 50`
 
 The second evaluation, where the hyperparameters are optimized on a small subset
