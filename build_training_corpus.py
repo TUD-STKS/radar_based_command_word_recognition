@@ -13,7 +13,7 @@ import numpy as np
 
 if __name__ == '__main__':
 
-    path_to_corpus = "C:\\Users\\chris\\Documents\\Institut\\eigene_paper\\radar_speech_command_word_recognition\\article_draft\\data\\corpus\corpus"
+    path_to_corpus = "PATH_TO_CORPUS\\corpus"
 
     training_corpus = rs_corpus.RsCorpus()
     
