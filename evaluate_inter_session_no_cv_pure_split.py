@@ -56,7 +56,7 @@ if __name__ == "__main__":
     # Try to load the corpus with one of the provided paths.
     for path_name in paths:
         path = paths[path_name]
-        training_corpus = rs_corpus.load_corpus_from_file("%sprocessed_training_corpus.pkl" % (path))
+        training_corpus = rs_corpus.load_corpus_from_file(os.path.join(path, "processed_training_corpus.pkl"))
         if training_corpus is not None:
             log_message("Loaded Corpus.", log_file_name)
             break
