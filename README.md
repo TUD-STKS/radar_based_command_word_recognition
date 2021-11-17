@@ -27,6 +27,8 @@ from manually building it) and for MATLAB.
 
 ## Experiments and training
 
+### Inter-session experiment 1
+
 To repeat the training of the BiLSTM as explained in the paper, please run
 
   `evaluate_inter_session_no_cv_pure_split.py`
@@ -74,10 +76,18 @@ The maximal number of hidden units used for the BiLSTM layer.
 
 `max_num_hidden_units = 50`
 
+### Inter-session experiment 2
+
 The second evaluation, where the hyperparameters are optimized on a small subset
 of the remaining session, can be repeated using the script
 
   `evaluate_inter_session_no_cv.py`
 
 The user input is identical.
+
+### Intra-session experiment
+
+The intra-session experiment can be run with the script
+
+  `evaluate_intra_session.py`
 
