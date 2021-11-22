@@ -66,7 +66,7 @@ The allowed spectra and transforms can be returned with the function
 `train_and_evaluate.get_allowed_spectra_and_transform_keys()`
 
 The start and stop index of the frequencies used of each spectrum.
-The maximal value is 127 (corresponding to 128 frequency points from 1 to 6 GHz).
+The maximal value is 128 (corresponding to 128 frequency points from 1 to 6 GHz).
 
 `freq_start_index = 0`
 
